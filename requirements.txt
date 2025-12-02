@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+phidata
+openai
+pypdf
+python-dotenv
+psycopg2-binary
+sqlalchemy
+requests
+pydantic
