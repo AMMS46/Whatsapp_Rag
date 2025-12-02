@@ -8,7 +8,7 @@ class Settings:
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY")
     
     # Database
-    DATABASE_URL: str = "postgresql+psycopg2://whstapp_rag_user:bqXZiVAQcIg54hjvmk18tGVrUd3JqjKN@dpg-d4ndvivgi27c738hj86g-a/whstapp_rag"  
+    DATABASE_URL: str = os.getenv("DATABASE_URL")
     # WhatsApp Business API
     WHATSAPP_ACCESS_TOKEN: str = os.getenv("WHATSAPP_ACCESS_TOKEN")
     WHATSAPP_PHONE_NUMBER_ID: str = os.getenv("WHATSAPP_PHONE_NUMBER_ID")
@@ -25,3 +25,4 @@ class Settings:
 
 
 settings = Settings()
+
